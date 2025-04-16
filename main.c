@@ -1,9 +1,19 @@
 #include <stdio.h>
 
+
+
+char *greet(char *g){
+    char *x = (char *)printf("%s",g);
+
+    return x;
+}
+
+
+
+
 int main()
 {
-    int x,y;
-    printf("this is a test repo");
+    greet("Hello world");
     return 0;
     
     
